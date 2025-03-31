@@ -4,7 +4,7 @@ public class conta {
 
     int numeroConta;
     int numeroCliente;
-    double saldo;
+    private double saldo; // Changed to private
     String dataAbertura;
 
     void saqueConta(double valor){
@@ -16,7 +16,11 @@ public class conta {
     }
 
     conta(){
-        saldo=100.00;
+        saldo = 100.00;
+    }
+
+    // Method to get the current balance
+    public double getSaldo() {
+        return saldo;
     }
 }
-// classe conta com atributos e métodos para saque e depósito
