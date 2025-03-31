@@ -76,11 +76,11 @@ public class DigitaContaTemp {
         String dataAbertura = scanner.next();
 
         // Prompt for overdraft limit
-        System.out.print("Digite o limite de overdraft: ");
-        double limiteOverdraft = scanner.nextDouble();
+        System.out.print("Digite o limite de Credito: ");
+        double limiteCredito = scanner.nextDouble();
 
         // Create an instance of contaCorrente
-        contaCorrente contaCorrente = new contaCorrente(limiteOverdraft);
+        contaCorrente contaCorrente = new contaCorrente(limiteCredito);
         contaCorrente.numeroConta = numeroConta;
         contaCorrente.numeroCliente = numeroCliente;
         contaCorrente.dataAbertura = dataAbertura;
