@@ -4,7 +4,7 @@ public class conta {
 
     int numeroConta;
     int numeroCliente;
-    private double saldo; // Changed to private
+    double saldo; // Changed to private
     String dataAbertura;
 
     void saqueConta(double valor){
