@@ -13,9 +13,6 @@ public class DigitaConta {
         System.out.print("Digite o número do cliente: ");
         int numeroCliente = scanner.nextInt();
 
-        System.out.print("Digite o saldo inicial (pode ser sobrescrito): ");
-        double saldo = scanner.nextDouble();
-
         System.out.print("Digite a data de abertura: ");
         String dataAbertura = scanner.next();
 
@@ -27,7 +24,6 @@ public class DigitaConta {
         contaPoupanca contaPoupanca = new contaPoupanca();
         contaPoupanca.numeroConta = numeroConta;
         contaPoupanca.numeroCliente = numeroCliente;
-        contaPoupanca.saldo = saldo;
         contaPoupanca.dataAbertura = dataAbertura;
         contaPoupanca.datasAniversários = datasAniversários;
 
